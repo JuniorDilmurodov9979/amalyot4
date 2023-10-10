@@ -102,7 +102,9 @@ transition: all 0.2s linear;
    position: relative;
    height: 100%;
  }
-
+nav {
+  margin-left: auto;
+}
  body {
    background: #eee;
    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -112,7 +114,7 @@ transition: all 0.2s linear;
    padding: 0;
  }
  .header-site__btn {
- 
+ display: none;
 border: 0;
 background-color: transparent;
 margin-left: auto;
@@ -173,12 +175,13 @@ width: 120px;
     justify-content: center;
     transform: translateX(-100%);
     transition: all 0.3s;
-    & .header-site__btn {
+    
+  }
+    .header-site__btn {
       display: block;
       margin: 15px;
       margin-left: auto;
     }
-  }
 
     .header-site__list {
       flex-direction: column;

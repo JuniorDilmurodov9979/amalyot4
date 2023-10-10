@@ -467,6 +467,10 @@ body {
   height: 100%;
 }
 
+nav {
+  margin-left: auto;
+}
+
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -477,6 +481,7 @@ body {
 }
 
 .header-site__btn {
+  display: none;
   border: 0;
   background-color: transparent;
   margin-left: auto;
@@ -537,7 +542,7 @@ swiper-slide img {
     transform: translateX(-100%);
     transition: all 0.3s;
   }
-  nav .header-site__btn {
+  .header-site__btn {
     display: block;
     margin: 15px;
     margin-left: auto;
@@ -1046,4 +1051,240 @@ swiper-slide img {
   .footer__address {
     margin-left: 0;
   }
+}
+.client {
+  padding-top: 160px;
+  padding-bottom: 149px;
+}
+
+.client__title {
+  padding-bottom: 68px;
+  color: #424242;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.client__list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.client__item:nth-child(1) {
+  margin-right: 50px;
+}
+
+.client__item-img1 {
+  margin-right: 50px;
+  width: 280px;
+  height: 188px;
+  position: absolute;
+  left: 1px;
+  top: 281px;
+}
+
+.client__item-img2 {
+  width: 560px;
+  height: 172px;
+}
+
+.client__item-img3 {
+  width: 285px;
+  height: 130px;
+  position: absolute;
+  right: 0px;
+  top: 320px;
+}
+
+.left__btn,
+.right__btn {
+  margin-right: 50px;
+  margin-left: 50px;
+  border: none;
+}
+
+@media only screen and (max-width: 1304px) {
+  .left__btn {
+    margin-right: 30px;
+    margin-left: 160px;
+  }
+  .right__btn {
+    margin-left: 15px;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .left__btn {
+    margin-right: 10px;
+    margin-left: 170px;
+  }
+  .right__btn {
+    margin-left: 20px;
+  }
+  .client__item-img1 {
+    width: 250px;
+  }
+  .client__item-img2 {
+    width: 450px;
+  }
+  .client__item-img3 {
+    width: 250px;
+  }
+}
+@media only screen and (max-width: 826px) {
+  .client__item-img1 {
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 310px) {
+  .client__title {
+    max-width: 235px;
+    width: 100%;
+  }
+  .client__item-img2 {
+    width: 310px;
+    height: 95px;
+  }
+}
+.order {
+  padding-bottom: 140px;
+}
+
+.order__title {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #424242;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.order__desc {
+  padding-bottom: 60px;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.form__wrapper {
+  display: flex;
+}
+
+.order__form {
+  display: flex;
+}
+
+.form__input-wrapper {
+  margin-right: 40px;
+}
+
+.name-input {
+  width: 360px;
+  margin-bottom: 20px;
+  padding: 18px 232px 17px 32px;
+  border: 2px solid #AEA38B;
+}
+
+.order-input {
+  width: 360px;
+  margin-bottom: 30px;
+  padding: 18px 182px 17px 30px;
+  border: 2px solid #AEA38B;
+}
+
+.feedback-input {
+  padding: 18px 635px 187px 30px;
+  border: 2px solid #AEA38B;
+  width: 760px;
+  height: 230px;
+  resize: none;
+}
+
+.order__form-btn {
+  width: 360px;
+  height: 60px;
+  padding: 18px 50px;
+  font-size: 16px;
+  background: #D8B152;
+  background-color: #D8B152;
+  border: 1px solid transparent;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.prize {
+  padding-top: 160px;
+  padding-bottom: 140px;
+}
+
+.prize__title {
+  padding-bottom: 51px;
+  color: #424242;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.prize__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prize__item {
+  padding-bottom: 50px;
+}
+
+.prize__item-wrapper {
+  display: flex;
+}
+
+.prize__item-img1 {
+  width: 360px;
+  height: 250px;
+}
+
+.prize__item-wrapper--end {
+  margin-left: 40px;
+}
+
+.prize__item-title {
+  color: #424242;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.prize__item-desc {
+  margin-top: 20px;
+  margin-bottom: 122px;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.prize__item-link {
+  padding: 18px 79px;
+  background-color: #D8B152;
+  text-decoration: none;
+  color: #FFF;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.prize__line {
+  margin-bottom: 50px;
+  width: 1160px;
+  height: 1px;
+  background: #AEA38B;
+}
+
+.prize__item-text {
+  margin-bottom: 84px;
+}
+
+.prize__item-descl {
+  margin-bottom: 44px;
+}
+
+.prize__item-descadd {
+  margin-bottom: 57px;
 }/*# sourceMappingURL=main.css.map */
