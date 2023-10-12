@@ -121,7 +121,7 @@ margin-left: auto;
  }
 
 
- swiper-container {
+.svapp {
   position: absolute;
   z-index: 0.2;
   min-height: 800px;
@@ -129,7 +129,7 @@ margin-left: auto;
    height: 100%;
  }
 
- swiper-slide {
+ .slide-svapp {
     // min-height: 800px;
    text-align: center;
    font-size: 18px;
@@ -139,7 +139,7 @@ margin-left: auto;
    align-items: center;
  }
 
- swiper-slide img {
+ .slide-svapp img {
    display: block;
    width: 100%;
     min-height: 800px;
