@@ -487,7 +487,7 @@ body {
   margin-left: auto;
 }
 
-.svapp {
+#svapp {
   position: absolute;
   z-index: 0.2;
   min-height: 800px;
@@ -2311,9 +2311,6 @@ swiper-container {
     flex-direction: column;
     max-width: 762px;
     width: 100%;
-  }
-  .mySwiper {
-    display: none;
   }
   .restaurant__img-wrapper {
     display: flex;
